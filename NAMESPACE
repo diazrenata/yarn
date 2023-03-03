@@ -1,0 +1,3 @@
+useDynLib(yarn, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
